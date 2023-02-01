@@ -6,6 +6,10 @@
 - IF yes: show balance and ask what to do
 - IF no: redirect to login
 
+# Running
+
+- `$ nodemon app.py`
+
 # Users
 
 - Mock users can be found in `users.json`
@@ -18,5 +22,3 @@
 # launch.json
 
 - uses a `launch.json` file to get things started
-- press `fn f5` to run the file
-# atm-python
