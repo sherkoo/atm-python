@@ -1,24 +1,14 @@
-# ATM machine in python
-
-- A simple application that simulates an ATM machine using OOP
-- user enters PIN
-- System checks if PIN is accurate
-- IF yes: show balance and ask what to do
-- IF no: redirect to login
-
 # Running
 
-- `$ nodemon app.py`
+1. Do everything in the `env`
+1. `$ source env/bin/activate`
+1. `$ nodemon app/app.py`
 
-# Users
+# File structure
 
-- Mock users can be found in `users.json`
+```bash
+- env
 
-# Classes
-
-- `atm_class`
-- `user_class`
-
-# launch.json
-
-- uses a `launch.json` file to get things started
+- app
+  - app.py
+```
